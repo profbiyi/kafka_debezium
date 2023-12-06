@@ -125,12 +125,12 @@ Clean up. You can delete the whole container by running the code below
 docker connect kafka zookeeper
 ```
 
-> After all of this, we can then redo, the whole process, this time instead using docker compose below
->
+After all of this, we can then redo, the whole process, this time instead using docker compose below
 
->safe the below in a docker-compose.yml file. then run docker compose up on your system. When it is up, you can 
+
+safe the below in a docker-compose.yml file. then run docker compose up on your system. When it is up, you can 
 then do step 5 to the end, as the docker compose would have help in taking care of step 1 to 4
->
+
 
 ```bash
 version: '3'
